@@ -11,4 +11,8 @@
 |
 */
 
+use App\Http\Controllers\HomeController;
+
 $router->get('/', 'HomeController@index');
+
+$router->get('about', 'HomeController@about');

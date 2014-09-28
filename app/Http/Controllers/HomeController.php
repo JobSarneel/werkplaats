@@ -17,9 +17,13 @@ class HomeController extends Controller {
 	|
 	*/
 
-	public function index()
-	{
+	public function index()	{
 		return view('hello');
 	}
+	
+	public function about() {
+		return view('about');
+	}
+	
 
 }
